@@ -76,7 +76,7 @@ img{
 text-transform: capitalize;
 position: absolute;
 left: 1%;
-top: 429px;
+top: 430px;
 font-family: Amiko;
 font-style: normal;
 font-weight: bold;
@@ -94,9 +94,46 @@ color: #DAEAE2;
 	margin: 10px auto;
 }
 
-.intro p {
-	font-style: italic;
-	font-size: 1.125em;
+.intro form input{
+position: absolute;	
+width: 170px;
+height: 45px;
+left: 948px;
+top: 425px;
+text-align: center;
+background: #FFFFFF;
+border-radius: 12px 0px 0px 12px;
+border: none;
+}
+::-webkit-input-placeholder {
+	color: #cacaca;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+	color: #e5e5e5;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+	color: #e5e5e5;  
+ }
+  
+ :-ms-input-placeholder {  
+	color: #e5e5e5;  
+ }
+.intro form button{
+position: absolute;
+width: 100px;
+height: 45px;
+left: 1116px;
+top: 425px;
+background: #005728;
+border-radius: 0px 12px 12px 0px;
+border: none;
+color: #FFF;
+text-transform: uppercase;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
 }
 @media (max-width: 739px){
 	.intro{
